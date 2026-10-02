@@ -1,0 +1,28 @@
+:root {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.5;
+  color: #1f2937;
+  background: #f9fafb;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 40rem;
+  margin: 4rem auto;
+  padding: 0 1rem;
+}
+
+.status-online {
+  color: #16a34a;
+}
+
+.status-offline {
+  color: #dc2626;
+}
+
+.status-checking {
+  color: #6b7280;
+}

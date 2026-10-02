@@ -8,6 +8,7 @@
   },
   "scripts": {
     "dev:api": "pnpm --filter @workhub/api dev",
+    "dev:web": "pnpm --filter @workhub/web dev",
     "build": "pnpm -r build",
     "typecheck": "pnpm -r typecheck"
   }
